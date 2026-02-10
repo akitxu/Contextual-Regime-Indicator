@@ -1,0 +1,97 @@
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# --- Entornos virtuales ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Configuración de VSCode ---
+.vscode/
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Datos (opcional, si tienes datasets) ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# --- Logs y salidas ---
+*.log
+logs/
+output/
+results/
+
+# --- Modelos entrenados (si los hubiera) ---
+models/
+*.h5
+*.pkl
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# --- Entornos virtuales ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Configuración de VSCode ---
+.vscode/
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Datos (opcional, si tienes datasets) ---
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# --- Logs y salidas ---
+*.log
+logs/
+output/
+results/
+
+# --- Modelos entrenados (si los hubiera) ---
+models/
+*.h5
+*.pkl
+*.joblib
+
+# --- Archivos temporales ---
+tmp/
+temp/
+*.tmp*.joblib
+
+# --- Archivos temporales ---
+tmp/
+temp/
+*.tmp
