@@ -1,6 +1,7 @@
 Contextual Regime Indicator (CRI)
 
 El Contextual Regime Indicator (CRI) es una herramienta diseñada para identificar y caracterizar regímenes de mercado a partir del análisis contextual de series temporales financieras. Su objetivo es ofrecer una lectura más precisa del entorno en el que se mueven los activos, facilitando la toma de decisiones en gestión de carteras, análisis cuantitativo y desarrollo de modelos predictivos.
+
 🎯 Objetivo del proyecto
 
 El CRI busca integrar información estructural del mercado —tendencias, volatilidad, cambios de régimen, estabilidad o estrés— en un único indicador interpretable. La idea central es proporcionar una señal que permita:
@@ -29,6 +30,7 @@ Esta primera fase incluye:
 
 Puedes ver ejemplos prácticos aquí:
 https://github.com/akitxu/Contextual-Regime-Indicator/blob/main/docs/ejemplos_cri_en_regimenes_de_mercado_sp.md
+
 🚀 Próximos pasos
 
 El proyecto está listo para evolucionar hacia un Proyecto de Investigación más amplio. Las líneas de desarrollo previstas incluyen:
