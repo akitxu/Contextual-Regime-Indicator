@@ -91,7 +91,7 @@ Este estudio presenta una evaluación exhaustiva del **CRI V7‑3**, un indicado
 
 La robustez del CRI se examina a lo largo de seis períodos históricos que abarcan más de tres décadas de datos reales (1997–2026), seleccionados por representar regímenes de mercado claramente diferenciados, incluyendo fases de lateralidad prolongada, burbujas especulativas, mercados bajistas severos, expansiones sostenidas y entornos de alta volatilidad estructural.
 
-**2. Introducción.**
+**2. Introducción.**  
 Los mercados financieros contemporáneos operan en un entorno de volatilidad estructural, donde los cambios bruscos, las rotaciones rápidas y las rupturas de correlación forman parte del comportamiento habitual del sistema. Episodios como la crisis financiera de 2008, el colapso del petróleo en 2014–2016, la pandemia de 2020 o la inflación de 2022 evidencian que los mercados ya no siguen ciclos largos y predecibles, sino regímenes dinámicos y difíciles de anticipar.
 
 En este contexto, los inversores —especialmente los particulares y conservadores— se enfrentan a un reto creciente: navegar cambios de régimen sin sobreoperar, sin depender de predicciones y sin asumir drawdowns innecesarios. Las estrategias Buy & Hold, aunque efectivas a largo plazo, pueden sufrir pérdidas profundas en crisis severas, mientras que los sistemas de trading complejos suelen ser sensibles al ruido, difíciles de interpretar y poco adecuados para quienes priorizan estabilidad y simplicidad.
@@ -112,8 +112,8 @@ A través de esta evaluación multi‑período y multi‑activo, buscamos respon
 
 ¿Puede un overlay de riesgo simple y modular aportar valor de forma consistente en cualquier entorno de mercado?
 
-**3. Marco conceptual.**
-**3.1. ¿Qué es el CRI?**
+**3. Marco conceptual.**  
+**3.1. ¿Qué es el CRI?**  
 
 El CRI (Contextual Regime Indicator) es un indicador cuantitativo diseñado para evaluar el estado interno de un activo financiero. A diferencia de los osciladores tradicionales —centrados en momentum o sobrecompra/sobreventa— el CRI adopta un enfoque modular y multidimensional, integrando información procedente de cuatro pilares: momentum, volatilidad, contexto y emoción del mercado.
 
@@ -207,7 +207,7 @@ En esencia, el CRI funciona como un estetoscopio del mercado: no indica hacia d�
 
 El CRI nace de una idea sencilla pero poderosa: los mercados no siguen reglas fijas, sino regímenes que cambian con el tiempo. Si los regímenes cambian, la exposición del inversor también debería hacerlo. Esta es la base conceptual del CRI y el motivo por el que se aleja tanto de los indicadores tradicionales como de los sistemas de trading predictivos.
 
-La filosofía del CRI se articula en seis principios fundamentales.
+La filosofía del CRI se articula en seis principios fundamentales.  
 **4.1. El CRI no intenta predecir, intenta interpretar.**
 
 Muchos indicadores técnicos se utilizan con un objetivo implícito: anticipar hacia dónde irá el precio.
@@ -223,7 +223,8 @@ Su función es describir el estado actual del activo, respondiendo preguntas com
 
     ¿El mercado actúa con calma o con emoción?
 
-Es un indicador reactivo‑inteligente, no un predictor ingenuo.
+Es un indicador reactivo‑inteligente, no un predictor ingenuo. 
+
 **4.2. El CRI es un overlay de riesgo, no un sistema de trading.**
 
 El CRI no sustituye estrategias de inversión: las complementa.
@@ -240,6 +241,7 @@ Su propósito es modular la exposición, ayudando a:
     decidir cuándo no estar expuesto.
 
 Actúa como un filtro, no como un generador de señales agresivas, lo que lo hace especialmente útil para inversores conservadores y moderados.
+
 **4.3. El CRI se basa en la “coherencia de mercado”.**
 
 Un mercado sano no es simplemente un mercado que sube, sino uno en el que:
@@ -254,6 +256,7 @@ Un mercado sano no es simplemente un mercado que sube, sino uno en el que:
 
 Cuando estos elementos están alineados, el CRI sube; cuando se desalinean, cae.
 El CRI no mira solo el precio, sino cómo se comporta el precio.
+
 **4.4. El CRI entiende el mercado como un sistema emocional‑técnico.**
 
 Los mercados no son puramente racionales ni puramente emocionales: son un híbrido.
@@ -268,7 +271,8 @@ El CRI incorpora esta visión mediante sus módulos:
     volatilidad → estrés.
 
 La combinación permite detectar euforia, miedo, agotamiento, deterioro, estabilidad o transición.
-El CRI no intenta “leer la mente del mercado”, sino leer su comportamiento emocional reflejado en el precio.
+El CRI no intenta “leer la mente del mercado”, sino leer su comportamiento emocional reflejado en el precio. 
+
 **4.5. El CRI favorece la simplicidad operativa.**
 
 Aunque su construcción interna es modular, su uso es deliberadamente simple:
@@ -279,7 +283,8 @@ Aunque su construcción interna es modular, su uso es deliberadamente simple:
 
     CRI bajo → deterioro → reducir riesgo
 
-Un buen indicador debe ser fácil de interpretar, difícil de romper, robusto en múltiples activos y útil para inversores no técnicos.
+Un buen indicador debe ser fácil de interpretar, difícil de romper, robusto en múltiples activos y útil para inversores no técnicos.  
+
 **4.6. El CRI está diseñado para sobrevivir a cualquier régimen.**
 
 El objetivo final del CRI no es maximizar retorno, sino maximizar supervivencia:
@@ -316,6 +321,7 @@ Podemos expresarlo de forma conceptual como:
 CRIt=f(Mt,Vt,Ct,Et)
 
 La interpretación práctica se organiza en tres zonas principales.
+
 **5.1. 🟩 Zona Verde — Mercado Sano (CRI alto)**
 
 Un CRI alto (CRIt≈0.7−1.0) indica un entorno favorable:
@@ -333,6 +339,7 @@ En esta zona suelen aparecer tendencias claras, movimientos ordenados y baja pro
 Interpretación práctica:  
 Mantener o aumentar exposición.  
 Es donde el CRI captura la mayor parte de los tramos alcistas.
+
 **5.2. 🟨 Zona Amarilla — Transición o Incertidumbre (CRI medio).**
 
 Un CRI medio (CRIt≈0.4−0.7) refleja un mercado en transición:
@@ -350,6 +357,7 @@ El activo puede consolidar, girar, entrar en lateralidad tóxica o preparar un c
 Interpretación práctica:  
 Prudencia. No aumentar exposición.
 Esperar confirmación antes de actuar.
+
 **5.3. 🟥 Zona Roja — Deterioro y Riesgo Elevado (CRI bajo).**
 
 Un CRI bajo (CRIt≈0−0.4) indica un entorno peligroso:
@@ -366,6 +374,7 @@ En esta zona suelen producirse caídas rápidas, rupturas de soporte, lateralida
 
 Interpretación práctica:  
 Reducir exposición. Evitar nuevas compras. Proteger capital.
+
 **5.4. Interpretación dinámica — El CRI no es binario.**
 
 Una de las fortalezas del CRI es que no obliga a decisiones “todo o nada”. Su naturaleza continua permite:
@@ -387,6 +396,7 @@ Ejemplos:
     CRI:0.4→0.7 → recuperación del régimen.
 
 Esto lo hace especialmente útil para inversores conservadores.
+
 **5.5. Interpretación transversal — Funciona igual en todos los activos.**
 
 El CRI:
@@ -408,6 +418,7 @@ La lectura es siempre la misma:
     rojo → deterioro.
 
 Esto permite comparar activos entre sí y construir carteras más inteligentes.
+
 **5.6. Interpretación emocional — El CRI como “estetoscopio del mercado”.**
 
 El CRI no intenta predecir el futuro: intenta escuchar lo que el mercado expresa a través de su comportamiento.
@@ -426,8 +437,8 @@ Preguntas clave:
 
 En esencia, el CRI es una medida del estado emocional‑técnico del activo, y esa información es extremadamente valiosa para evitar los peores momentos.
 
-**6. Metodología.**
-**6.1. Períodos analizados.**
+**6. Metodología.**  
+**6.1. Períodos analizados.**  
 
 El análisis de robustez del CRI V7‑3 se basa en una selección deliberada de períodos históricos que representan regímenes de mercado radicalmente distintos. En lugar de utilizar un único tramo continuo, se han escogido ventanas específicas que permiten evaluar el comportamiento del indicador en entornos extremos, laterales, volátiles, alcistas y bajistas. Esta aproximación multi‑régimen es esencial para determinar si un overlay de riesgo es realmente generalizable y no depende de un único ciclo económico.
 
@@ -770,14 +781,16 @@ Las zonas existen en la lógica operativa, pero no en la visualización, para ev
 
 La estrategia basada en el CRI utiliza reglas simples y transparentes:
 
-Señal de compra (entrada o aumento de exposición)  
+Señal de compra (entrada o aumento de exposición) 
+
 Se activa cuando:
 
     el CRI cruza al alza de zona amarilla a zona verde, o
 
     se mantiene estable en zona verde durante varias sesiones.
 
-Señal de venta (reducción o salida de exposición)  
+Señal de venta (reducción o salida de exposición) 
+
 Se activa cuando:
 
     el CRI cae de zona verde a zona amarilla,
@@ -786,7 +799,8 @@ Se activa cuando:
 
     permanece en zona roja durante un período prolongado.
 
-Señal de mantenimiento  
+Señal de mantenimiento 
+
 Se aplica cuando:
 
     el CRI permanece en zona verde sin deterioro, o
@@ -898,6 +912,7 @@ Durante este período se observan:
     episodios de volatilidad sin dirección.
 
 Es un entorno donde la señal técnica se degrada y el ruido domina.
+
 Utilidad del período para evaluar el CRI
 
 Este tramo es especialmente relevante porque permite analizar si el CRI:
@@ -1058,6 +1073,7 @@ Características del período
     Volatilidad creciente antes y durante el colapso.
 
 Este tramo combina dos regímenes opuestos —euforia extrema y crisis severa— lo que lo convierte en un test crítico para cualquier overlay de riesgo.
+
 Por qué es útil para evaluar el CRI
 
 Este período permite analizar si el CRI:
@@ -1120,7 +1136,7 @@ Primero analizamos los resultados activo por activo, y después presentamos la l
 | PBR    | CRI V7-3 (modular)      | PBR    |
 | CL=F   | CRI V7-3 (modular)      | CL=F   |
 
-**10.2.2 Análisis por activo (1998–2002).**
+**10.2.2 Análisis por activo (1998–2002).**  
 AAPL
 
     B&H: +169%
@@ -1140,7 +1156,7 @@ AAPL
     Operativa: 64 compras, 52 ventas, PF 2.91, Win Rate 0.47, Exposure 0.97
 
 **Interpretación:**  
-El CRI captura de forma excelente la fase alcista y evita gran parte del colapso posterior. Reduce volatilidad, controla drawdown y multiplica el rendimiento. En un período tan direccional, el CRI está en su “zona óptima”.
+El CRI captura de forma excelente la fase alcista y evita gran parte del colapso posterior. Reduce volatilidad, controla drawdown y multiplica el rendimiento. En un período tan direccional, el CRI está en su “zona óptima”.  
 MSFT
 
     B&H: +102%
@@ -1160,7 +1176,7 @@ MSFT
     Operativa: 58 compras, 37 ventas, PF 1.95, Win Rate 0.49, Exposure 0.95
 
 **Interpretación:** 
-Mejora retorno, reduce volatilidad y mantiene drawdowns razonables. El CRI actúa como un overlay de timing sólido y consistente.
+Mejora retorno, reduce volatilidad y mantiene drawdowns razonables. El CRI actúa como un overlay de timing sólido y consistente.  
 KO
 
     B&H: −25%
@@ -1180,7 +1196,7 @@ KO
     Operativa: PF 1.46, Win Rate 0.46
 
 **Interpretación:** 
-Convierte un activo perdedor en uno ganador, con menor volatilidad. No es espectacular, pero sí claramente útil.
+Convierte un activo perdedor en uno ganador, con menor volatilidad. No es espectacular, pero sí claramente útil.  
 PBR
 
     B&H: −14%
@@ -1200,7 +1216,7 @@ PBR
     Operativa: PF 0.45, Win Rate 0.24
 
 **Interpretación:**  
-El CRI no funciona bien aquí: pérdidas, baja tasa de acierto y PF pobre. Esto es sano: muestra que el modelo no es universal y que ciertos activos/regímenes no encajan con su lógica.
+El CRI no funciona bien aquí: pérdidas, baja tasa de acierto y PF pobre. Esto es sano: muestra que el modelo no es universal y que ciertos activos/regímenes no encajan con su lógica.  
 CL=F (crudo)
 
     B&H: −38%
@@ -1219,7 +1235,7 @@ CL=F (crudo)
 
     Operativa: PF 0.72, Win Rate 0.41
 
-**Interpretación:**  
+**Interpretación:**    
 Sigue siendo perdedor, pero menos que B&H. El CRI actúa como amortiguador de daños, no como generador de alfa.
 
 **10.2.3 Lectura global del período 1998–2002.**
@@ -1238,7 +1254,7 @@ El CRI muestra:
 
     CL=F: reduce pérdidas, pero no genera alfa.
 
-**Conclusión:**  
+**Conclusión:**    
 En un entorno con tendencias explosivas seguidas de colapsos severos, el CRI V7‑3:
 
     captura fases alcistas,
@@ -1252,7 +1268,7 @@ En un entorno con tendencias explosivas seguidas de colapsos severos, el CRI V7�
  
  **10.2.4 Análisis global del período 1998–2002.**
 
-El período 1998–2002 combina una fase de euforia extrema con un colapso profundo y prolongado. En este entorno, el comportamiento del CRI V7‑3 muestra patrones muy diferenciados según el tipo de activo.
+El período 1998–2002 combina una fase de euforia extrema con un colapso profundo y prolongado. En este entorno, el comportamiento del CRI V7‑3 muestra patrones muy diferenciados según el tipo de activo.  
 Activos de crecimiento / tendenciales (AAPL, MSFT)
 
 El CRI destaca de forma sobresaliente:
@@ -1265,7 +1281,7 @@ El CRI destaca de forma sobresaliente:
 
     genera ratios Sharpe y Calmar excepcionalmente altos.
 
-En estos activos, el CRI actúa como un overlay de timing muy eficaz, capaz de aprovechar la expansión y proteger durante el colapso.
+En estos activos, el CRI actúa como un overlay de timing muy eficaz, capaz de aprovechar la expansión y proteger durante el colapso.  
 Activos defensivos o laterales (KO)
 
 El aporte es moderado pero consistente:
@@ -1276,8 +1292,8 @@ El aporte es moderado pero consistente:
 
     reduce volatilidad y drawdown.
 
-No es espectacular, pero sí estable y útil.
-Activos complicados o muy ruidosos (PBR, CL=F)
+No es espectacular, pero sí estable y útil.  
+Activos complicados o muy ruidosos (PBR, CL=F)  
 
 Aquí el CRI muestra sus límites:
 
@@ -1285,9 +1301,9 @@ Aquí el CRI muestra sus límites:
 
     CL=F: reduce pérdidas respecto a B&H, pero sigue siendo negativo.
 
-Este comportamiento es positivo desde el punto de vista metodológico:
-muestra que el CRI no es un modelo “mágico” y que existen activos/regímenes donde su lógica no encaja.
-Actividad operativa y exposición
+Este comportamiento es positivo desde el punto de vista metodológico:  
+muestra que el CRI no es un modelo “mágico” y que existen activos/regímenes donde su lógica no encaja.  
+Actividad operativa y exposición  
 
     alta actividad (50–60 operaciones en 5 años),
 
@@ -1374,12 +1390,12 @@ Este rendimiento es excepcional incluso para un período tan direccional y volá
 
 ¿Es creíble un ×15 en AAPL en cuatro años?
 
-Sorprendentemente, sí. El resultado es extremo, pero plausible si se cumplen las siguientes condiciones:
+Sorprendentemente, sí. El resultado es extremo, pero plausible si se cumplen las siguientes condiciones:  
 1. Entrada temprana en la tendencia alcista (1998–1999)
 
-AAPL multiplicó su precio ×4 entre 1998 y 2000.
-Un overlay que detecte bien el régimen puede capturar gran parte de este movimiento.
-2. Salida razonable del crash 2000–2002
+AAPL multiplicó su precio ×4 entre 1998 y 2000.  
+Un overlay que detecte bien el régimen puede capturar gran parte de este movimiento.  
+2. Salida razonable del crash 2000–2002  
 
     El Nasdaq cayó un −78%.
 
@@ -1389,18 +1405,18 @@ Un overlay que detecte bien el régimen puede capturar gran parte de este movimi
 
 3. Reentrada en los rebotes de 2001–2002
 
-AAPL tuvo rebotes del +50% al +100% en varias ocasiones.
-El CRI parece capturar parte de ellos.
-4. Alta actividad operativa
+AAPL tuvo rebotes del +50% al +100% en varias ocasiones.  
+El CRI parece capturar parte de ellos.  
+4. Alta actividad operativa  
 
-116 operaciones en 4 años → ~30 operaciones/año.
-Esto convierte al CRI en un overlay relativamente activo, capaz de aprovechar micro‑tendencias.
+116 operaciones en 4 años → ~30 operaciones/año.  
+Esto convierte al CRI en un overlay relativamente activo, capaz de aprovechar micro‑tendencias.  
 
 5. Precios ajustados por splits
 
-AAPL tuvo splits 2:1 en 2000 y 2005.
-Los precios de 0.14–0.32 son correctos para datos ajustados.
-6. Curva de equity progresiva y sin saltos
+AAPL tuvo splits 2:1 en 2000 y 2005.  
+Los precios de 0.14–0.32 son correctos para datos ajustados.  
+6. Curva de equity progresiva y sin saltos  
 
 El equity evoluciona así:
 
@@ -1436,8 +1452,8 @@ Se han revisado los elementos clave:
 
     Exposure: 0.998 → explica el número elevado de operaciones.
 
-Conclusión:  
-No hay señales de error, artefactos, splits mal ajustados ni comportamientos imposibles.
+Conclusión:    
+No hay señales de error, artefactos, splits mal ajustados ni comportamientos imposibles.  
 
 **¿Qué explica este rendimiento tan alto?.**
 
@@ -1456,12 +1472,12 @@ Más operaciones → más oportunidades de capturar micro‑tendencias.
 
 5. Reducción de volatilidad
 
-Vol Estrategia = 0.35 vs 0.68 de B&H.
-Esto mejora Sharpe y Calmar de forma notable.
-¿Es un resultado “demasiado bueno para ser verdad”?
+Vol Estrategia = 0.35 vs 0.68 de B&H.  
+Esto mejora Sharpe y Calmar de forma notable.  
+¿Es un resultado “demasiado bueno para ser verdad”?  
 
-Es extremadamente bueno, pero no imposible.
-En un entorno de burbuja + crash, un sistema de timing que:
+Es extremadamente bueno, pero no imposible.  
+En un entorno de burbuja + crash, un sistema de timing que:  
 
     entra pronto,
 
@@ -1499,12 +1515,12 @@ La curva del CRI:
 
     es coherente con los datos operativos.
 
-Conclusión visual:  
-Si la curva es suave y sin discontinuidades, el resultado es legítimo.
-La imagen confirma esta condición.
-Conclusión final del apartado
+Conclusión visual:    
+Si la curva es suave y sin discontinuidades, el resultado es legítimo.  
+La imagen confirma esta condición.  
+Conclusión final del apartado  
 
-El rendimiento del CRI V7‑3 en AAPL durante 1998–2002 es excepcional, pero creíble.
+El rendimiento del CRI V7‑3 en AAPL durante 1998–2002 es excepcional, pero creíble.  
 El sistema:
 
     captura la expansión,
@@ -1519,12 +1535,13 @@ El sistema:
 
     y opera con suficiente frecuencia para aprovechar micro‑tendencias.
 
-No hay señales de sobreajuste ni artefactos.
-Es un resultado extraordinario, pero no sospechoso.
+No hay señales de sobreajuste ni artefactos.  
+Es un resultado extraordinario, pero no sospechoso.  
 
 10.4. Período 2007–2009 — Crisis financiera global
 
-El período 2007–2009 constituye uno de los entornos más extremos de la historia moderna: caída sincronizada de activos, volatilidad explosiva, correlaciones cercanas a 1 y pánico generalizado. Es, por tanto, el escenario más relevante para validar la utilidad real de un indicador de riesgo.
+El período 2007–2009 constituye uno de los entornos más extremos de la historia moderna: caída sincronizada de activos, volatilidad explosiva, correlaciones cercanas a 1 y pánico generalizado. Es, por tanto, el escenario más relevante para validar la utilidad real de un indicador de riesgo.  
+
 Contexto del período
 
 Incluye:
@@ -1552,8 +1569,9 @@ Este entorno permite evaluar si un indicador:
     genera asimetría positiva incluso en mercados bajistas.
 
 Durante este período, la estrategia basada en el CRI V7‑3 transforma un entorno bajista severo en resultados significativamente mejores que el Buy & Hold, convirtiendo pérdidas en ganancias en la mayoría de los activos y reduciendo el riesgo de forma consistente.
-10.4.1 Análisis de resultados (2007–2009)
-10.4.1.1 Rendimiento y volatilidad
+
+**10.4.1 Análisis de resultados (2007–2009)**  
+**10.4.1.1 Rendimiento y volatilidad**  
 
 | Activo | Rend. Final B&H | Rend. Final Estrategia | CAGR Estrategia | Vol. B&H | Vol. Estrategia |
 |--------|------------------|-------------------------|------------------|----------|------------------|
@@ -1588,6 +1606,7 @@ Lectura general
 Reducción de volatilidad
 
 En los 8 activos, la volatilidad de la estrategia es menor que la del Buy & Hold.
+
 Reducciones especialmente importantes:
 
     PBR: 0.75 → 0.46
@@ -1596,7 +1615,8 @@ Reducciones especialmente importantes:
 
     EEM: 0.55 → 0.28
 
-Interpretación:  
+Interpretación: 
+
 El CRI no es oportunista; actúa como un indicador de riesgo estructural.
 
 **10.4.1 2. Sharpe, MaxDD y Calmar.**
@@ -1615,7 +1635,7 @@ El CRI no es oportunista; actúa como un indicador de riesgo estructural.
 
 Sharpe Ratio
 
-En los 8 activos, el Sharpe de la estrategia supera al del Buy & Hold.
+En los 8 activos, el Sharpe de la estrategia supera al del Buy & Hold.  
 En muchos casos, la mejora es multiplicativa:
 
     AAPL: 0.26 → 1.80
@@ -1638,6 +1658,7 @@ Destacan:
 Max Drawdown
 
 El CRI reduce el drawdown en los 8 activos.
+
 Casos críticos:
 
     AAPL: −0.59 → −0.22
@@ -1648,7 +1669,8 @@ Casos críticos:
 
     CL=F: −0.76 → −0.29
 
-Interpretación:  
+Interpretación:
+
 Reducir drawdowns a la mitad o menos en plena crisis financiera es extraordinario.
 
 **10.4.1 3. Win Rate, Profit Factor y Exposure.**
@@ -1688,9 +1710,10 @@ Reducir drawdowns a la mitad o menos en plena crisis financiera es extraordinari
 ##10.4.3. Conclusión del período 2007–2009.**
 
 El CRI V7‑3 demuestra:
-1. Robustez en el peor entorno posible
 
-Si un indicador funciona en 2007–2009, funciona en cualquier sitio.
+1. Robustez en el peor entorno posible  
+Si un indicador funciona en 2007–2009, funciona en cualquier sitio. 
+
 2. Reducción sistemática del riesgo
 
     menor volatilidad en 8/8 activos,
@@ -1747,9 +1770,10 @@ El CRI:
 
     preserva capital en crisis sistémicas.
 
-Conclusión:  
-El CRI V7‑3 supera con nota el período más exigente de los últimos 50 años.
-Es evidencia sólida para su homologación como indicador universal de riesgo.
+Conclusión: 
+
+El CRI V7‑3 supera con nota el período más exigente de los últimos 50 años.  
+Es evidencia sólida para su homologación como indicador universal de riesgo.  
 
 
 **10.5. Período 2010–2012 — Crisis de deuda europea.**
@@ -2471,21 +2495,22 @@ Este período es un test excelente para un sistema de timing:
     ruido macro elevado (China, petróleo, QE, dólar fuerte).
 
 El CRI V7‑3 demuestra:
-1. Robustez en activos de calidad (AAPL, MSFT, KO)
 
+1. Robustez en activos de calidad (AAPL, MSFT, KO)  
 Mejora retorno y reduce riesgo.
-2. Capacidad de capturar tendencias explosivas (NEL.OL)
 
+3. Capacidad de capturar tendencias explosivas (NEL.OL)  
 Multiplica el rendimiento y reduce drawdown.
-3. Protección en activos bajistas (EEM, PBR, GLD, CL=F)
 
+3. Protección en activos bajistas (EEM, PBR, GLD, CL=F)  
 Evita pérdidas enormes y genera retornos positivos.
-4. Buen equilibrio entre actividad y eficiencia
 
+5. Buen equilibrio entre actividad y eficiencia  
 Profit Factor alto, drawdowns controlados, número de trades razonable.
-5. Comportamiento creíble y no sobreajustado
 
+5. Comportamiento creíble y no sobreajustado  
 Cada activo se comporta como cabría esperar según su naturaleza.
+
 10.7.3 Conclusión final
 
 El período 2014–2016 confirma que el CRI V7‑3:
@@ -2517,13 +2542,15 @@ El CRI:
 Conclusión:  
 En crisis sectoriales, el CRI demuestra una capacidad transformadora, convirtiendo activos peligrosos en activos gestionables.
 
-10.8. Período 2018–2024 — Regímenes Cambiantes y Volatilidad Estructural
+**10.8. Período 2018–2024 — Regímenes Cambiantes y Volatilidad Estructural**
 
-Entre 2018 y 2024 los mercados atravesaron uno de los períodos más volátiles, fragmentados y complejos de la historia moderna. Se alternaron fases de shock extremo, euforia, colapso, recuperación acelerada y un régimen final de tipos altos.
+Entre 2018 y 2024 los mercados atravesaron uno de los períodos más volátiles, fragmentados y complejos de la historia moderna. Se alternaron fases de shock extremo, euforia, colapso, recuperación acelerada y un régimen final de tipos altos.  
 Este entorno es ideal para validar un modelo de riesgo como el CRI V7‑3, ya que exige adaptabilidad, sensibilidad a cambios de régimen y capacidad para gestionar volatilidad estructural.
-10.8.1 Clasificación del mercado 2018–2024
 
-El período completo no es homogéneo. Se divide en siete regímenes claramente diferenciados, cada uno con dinámicas propias de liquidez, volatilidad, correlaciones y comportamiento de activos.
+**10.8.1 Clasificación del mercado 2018–2024**
+
+El período completo no es homogéneo. Se divide en siete regímenes claramente diferenciados, cada uno con dinámicas propias de liquidez, volatilidad, correlaciones y comportamiento de activos.  
+
 1) 2018 — Mercado bajista por endurecimiento monetario
 
 Contexto
@@ -2537,6 +2564,7 @@ Contexto
     Reducción de liquidez global.
 
 Régimen: Risk‑off, tightening, bear market.
+
 2) 2019 — Mercado alcista de recuperación
 
 Contexto
@@ -2550,7 +2578,8 @@ Contexto
     Rally sostenido en acciones y criptomonedas.
 
 Régimen: Risk‑on, low volatility, bull market.
-3) 2020 — Shock extremo + recuperación explosiva
+
+3) 2020 — Shock extremo + recuperación explosiva  
 Q1 2020 — Colapso por COVID
 
     Caídas del 30–40% en semanas.
@@ -2568,6 +2597,7 @@ Q2–Q4 2020 — Estímulo masivo y rally vertical
     Rally explosivo en tecnología y cripto.
 
 Régimen: Shock sistémico → Ultra‑risk‑on.
+
 4) 2021 — Burbuja de liquidez
 
 Contexto
@@ -2583,6 +2613,7 @@ Contexto
     Volatilidad contenida.
 
 Régimen: Euforia, bull market, liquidity‑driven.
+
 5) 2022 — Mercado bajista por inflación y subidas de tipos
 
 Contexto
@@ -2596,6 +2627,7 @@ Contexto
     Correlación positiva entre activos (todo cae).
 
 Régimen: Bear market, tightening, high volatility.
+
 6) 2023 — Recuperación parcial
 
 Contexto
@@ -2609,6 +2641,7 @@ Contexto
     Cripto rebota desde mínimos.
 
 Régimen: Risk‑on moderado, recuperación.
+
 7) 2024 (hasta enero) — Mercado mixto
 
 Contexto
@@ -2623,17 +2656,18 @@ Contexto
 
 Régimen: Neutral → risk‑on suave.
 
-10.8.2 Conclusión global sobre el entorno 2018–2024
+**10.8.2 Conclusión global sobre el entorno 2018–2024**
 
 El período 2018–2024 constituye uno de los entornos más completos, exigentes y cambiantes para validar un modelo de riesgo. A lo largo de estos siete años, los mercados atravesaron prácticamente todos los regímenes posibles:
-Año	Régimen dominante
-2018	Bear market por tightening
-2019	Bull market por relajación monetaria
-2020	Shock extremo + rally explosivo
-2021	Euforia por liquidez
-2022	Bear market por inflación y subidas de tipos
-2023	Recuperación parcial
-2024	Neutral → risk‑on suave
+
+Año	Régimen dominante  
+2018	Bear market por tightening  
+2019	Bull market por relajación monetaria  
+2020	Shock extremo + rally explosivo  
+2021	Euforia por liquidez  
+2022	Bear market por inflación y subidas de tipos  
+2023	Recuperación parcial  
+2024	Neutral → risk‑on suave  
 
 Este mosaico de regímenes incluye:
 
@@ -2651,6 +2685,7 @@ Este mosaico de regímenes incluye:
 
 En conjunto, es un laboratorio perfecto para evaluar si un indicador de riesgo es realmente transversal, adaptable y robusto.
 Comportamiento operativo del CRI en 2018–2024
+
 Win Rate moderado (30–55%)
 
 Este rango es típico de sistemas basados en:
@@ -2661,7 +2696,8 @@ Este rango es típico de sistemas basados en:
 
     asimetría positiva.
 
-El CRI no busca acertar mucho, sino acertar cuando importa.
+El CRI no busca acertar mucho, sino acertar cuando importa.  
+
 Profit Factor muy sólido
 
 Los resultados típicos del período muestran:
@@ -2682,9 +2718,10 @@ Los resultados típicos del período muestran:
 
     CL=F: 0.98 (casi break‑even)
 
-PF > 1 en 7 de 8 activos, con valores especialmente altos en activos tendenciales.
-Esto confirma una asimetría positiva consistente.
-Exposure entre 0.89 y 0.96
+PF > 1 en 7 de 8 activos, con valores especialmente altos en activos tendenciales.  
+Esto confirma una asimetría positiva consistente. 
+
+Exposure entre 0.89 y 0.96  
 
 El CRI permanece casi siempre invertido, pero:
 
@@ -2695,9 +2732,11 @@ El CRI permanece casi siempre invertido, pero:
     no depende de market timing agresivo.
 
 Este patrón es característico de un overlay de riesgo, no de un sistema especulativo.
-10.8.4 Conclusión general (antes del análisis detallado)
+
+**10.8.4 Conclusión general (antes del análisis detallado)**
 
 El comportamiento del CRI V7‑3 en 2018–2024 es extraordinariamente consistente:
+
 1. Mejora el rendimiento en todos los activos
 
 Incluso en los más difíciles:
@@ -2715,6 +2754,7 @@ Incluso en los más difíciles:
     cripto.
 
 La mejora no depende de un único tipo de mercado.
+
 2. Reduce el drawdown en todos los activos
 
 Especialmente en activos volátiles:
@@ -2730,6 +2770,7 @@ Especialmente en activos volátiles:
     petróleo.
 
 La reducción de drawdown es uno de los sellos más claros de robustez.
+
 3. Aumenta el Sharpe en todos los activos
 
 En muchos casos:
@@ -2739,6 +2780,7 @@ En muchos casos:
     o incluso lo triplica.
 
 Esto demuestra que el CRI optimiza la eficiencia del riesgo, no solo el retorno.
+
 4. Mantiene una exposición muy alta (0.97–0.99)
 
 Esto indica que:
@@ -2751,8 +2793,9 @@ Esto indica que:
 
 5. Funciona incluso en activos con ruido extremo
 
-BTC, ETH, petróleo, small caps…
-Aun así, entrega métricas sólidas y consistentes.
+BTC, ETH, petróleo, small caps…  
+Aun así, entrega métricas sólidas y consistentes.  
+
 Conclusión global
 
 El período 2018–2024 demuestra que el CRI V7‑3:
@@ -2773,8 +2816,8 @@ El período 2018–2024 demuestra que el CRI V7‑3:
 
 En un entorno con volatilidad estructural, shocks globales y cambios monetarios abruptos, el CRI confirma su naturaleza como indicador universal de riesgo.
 
-10.8.4 Análisis de resultados (2018–2024)
-10.8.4.1 Rendimiento y volatilidad
+**10.8.4 Análisis de resultados (2018–2024)**  
+**10.8.4.1 Rendimiento y volatilidad**
 
 | Activo   | Rend. Final B&H | Rend. Final Estrategia | CAGR Estrategia | Vol. B&H | Vol. Estrategia |
 |----------|------------------|-------------------------|------------------|----------|------------------|
@@ -2823,15 +2866,15 @@ En todos los activos:
 
     la reducción es dramática en activos extremos.
 
-Ejemplos:
-Activo	Vol B&H	Vol Estrategia
-ETH	0.74	0.49
-BTC	0.57	0.38
-CL=F	1.44	0.23
+Ejemplos:  
+Activo	Vol B&H	Vol Estrategia  
+ETH	0.74	0.49  
+BTC	0.57	0.38  
+CL=F	1.44	0.23  
 
 Esto es exactamente lo que debe hacer un indicador de riesgo.
 
-10.8.4.2 Sharpe, MaxDD y Calmar
+**10.8.4.2 Sharpe, MaxDD y Calmar**
 
 | Activo   | Sharpe B&H | Sharpe Estrategia | MaxDD B&H | MaxDD Estrategia | Calmar Estrategia |
 |----------|-------------|--------------------|-----------|-------------------|--------------------|
@@ -2865,8 +2908,9 @@ El CRI alcanza niveles institucionales:
 
     1.20 incluso en petróleo
 
-Sharpe > 1.5 es excepcional.
-Sharpe > 2.0 es propio de hedge funds de élite.
+Sharpe > 1.5 es excepcional.  
+Sharpe > 2.0 es propio de hedge funds de élite. 
+
 Max Drawdown
 
 El CRI reduce el drawdown en todos los activos:
@@ -2888,6 +2932,7 @@ Casos extremos:
     Petróleo pasa de –149% a –24%.
 
 Resultados extraordinarios.
+
 Calmar Ratio
 
 Valores destacados:
@@ -2902,7 +2947,7 @@ Valores destacados:
 
     ETH: 3.96
 
-Un Calmar > 3 es propio de fondos top‑tier.
+Un Calmar > 3 es propio de fondos top‑tier.  
 El CRI lo consigue en múltiples activos con perfiles muy distintos.
 
 **10.8.4.3. Win Rate, Profict Factor y Exposure.**
@@ -2934,6 +2979,7 @@ Interpretación operativa
     PF > 2 en BTC y ETH.
 
 El CRI genera asimetría positiva de forma consistente.
+
 10.8.4.4 Exposure
 
 Todos los activos presentan exposición 0.97–0.99.
@@ -2980,7 +3026,7 @@ Este es el comportamiento esperado de un indicador institucional de riesgo.
 | 2014–2016   | Volatilidad estructural            | ¿El CRI gestiona activos tóxicos?                           |
 | 2018–2026   | Volatilidad persistente + shocks   | ¿El CRI generaliza en el entorno más complejo?              |
 
-**10.9.2 Comparación global del CRI por período.**
+**10.9.2 Comparación global del CRI por período.**  
 1997–1998 — Mercado lateral y ruidoso
 
     Reduce drawdown y suaviza volatilidad.
@@ -3123,7 +3169,7 @@ En conjunto, los seis períodos muestran que el CRI es un indicador de riesgo ro
 
 **10.10. Análisis comparativo multi‑período.**
 
-El análisis multi‑período constituye el núcleo de este estudio, ya que permite evaluar si el CRI V7‑3 mantiene un comportamiento consistente, robusto y generalizable a través de regímenes de mercado profundamente distintos.
+El análisis multi‑período constituye el núcleo de este estudio, ya que permite evaluar si el CRI V7‑3 mantiene un comportamiento consistente, robusto y generalizable a través de regímenes de mercado profundamente distintos.  
 En lugar de centrarse en un único tramo histórico —lo que podría inducir sesgos o sobreajuste— este enfoque examina cómo responde el CRI ante:
 
     burbujas,
@@ -3143,11 +3189,14 @@ La pregunta esencial es:
 ¿El CRI aporta valor de forma transversal, independientemente del activo y del entorno?
 
 Los resultados muestran que sí.
-A continuación se presentan los patrones comunes observados en todos los períodos, así como las diferencias clave que permiten entender la naturaleza del CRI.
+
+A continuación se presentan los patrones comunes observados en todos los períodos, así como las diferencias clave que permiten entender la naturaleza del CRI.  
+
 10.10.1 Patrones repetidos en todos los períodos
 
-A pesar de la enorme diversidad de regímenes analizados, el CRI V7‑3 exhibe una serie de comportamientos que se repiten de forma sistemática.
-Estos patrones constituyen la evidencia más sólida de su robustez estructural.
+A pesar de la enorme diversidad de regímenes analizados, el CRI V7‑3 exhibe una serie de comportamientos que se repiten de forma sistemática.  
+Estos patrones constituyen la evidencia más sólida de su robustez estructural.  
+
 10.10.2 Reducción consistente del drawdown
 
 En absolutamente todos los períodos —incluyendo los más benignos— el CRI reduce el drawdown respecto al Buy & Hold.
@@ -3187,6 +3236,7 @@ Este patrón es especialmente notable en períodos de estrés:
     2018–2026,
 
 donde la volatilidad del Buy & Hold se dispara mientras que la del CRI se mantiene contenida.
+
 10.10.4 Mejora de Sharpe y Calmar
 
 En la mayoría de los activos y períodos:
@@ -3196,6 +3246,7 @@ En la mayoría de los activos y períodos:
     el Calmar Ratio mejora de forma significativa.
 
 Esto demuestra que el CRI no solo reduce riesgo, sino que mejora la eficiencia del capital, generando más retorno por unidad de riesgo asumido.
+
 10.10.5 Transformación de activos tóxicos
 
 En activos estructuralmente problemáticos como:
@@ -3258,7 +3309,7 @@ Esto indica que el CRI no es un sistema hipersensible al ruido, sino un overlay 
 
 **10.11. Comportamiento del CRI según el tipo de mercado.**
 
-El análisis multi‑período permite clasificar el comportamiento del CRI V7‑3 según el régimen dominante.
+El análisis multi‑período permite clasificar el comportamiento del CRI V7‑3 según el régimen dominante.  
 A lo largo de todos los períodos estudiados, el CRI muestra patrones consistentes que permiten entender su naturaleza como indicador de riesgo transversal.
 
 **10.11.1 Mercados alcistas.**
@@ -3457,7 +3508,7 @@ El año 2020 es un caso paradigmático de volatilidad extrema:
 
         se captura la recuperación en V.
 
-Resultado:  
+Resultado:    
 Menor drawdown, menor estrés y recuperación completa sin necesidad de operar cada día.
 
 **10.13.2 Beneficios para el inversor no técnico.**
@@ -3520,7 +3571,7 @@ El estudio no incorpora:
 
     impuestos sobre operaciones.
 
-En la práctica, estos costes pueden reducir ligeramente la rentabilidad, especialmente en activos con spreads amplios o mercados menos líquidos.
+En la práctica, estos costes pueden reducir ligeramente la rentabilidad, especialmente en activos con spreads amplios o mercados menos líquidos.  
 No obstante, dado que el CRI no sobreopera, el impacto esperado es moderado.
 
 **10.14.4 Ausencia de apalancamiento y gestión avanzada del capital.**
@@ -3568,7 +3619,7 @@ En activos como el oro (GLD), donde:
 
     la volatilidad es irregular,
 
-el CRI aporta estabilidad, pero no genera grandes mejoras en rentabilidad.
+el CRI aporta estabilidad, pero no genera grandes mejoras en rentabilidad.  
 Esto refleja una limitación natural: ningún overlay puede transformar completamente un activo sin tendencia.
 
 **10.14.7 Sensibilidad a parámetros internos.**
@@ -3848,17 +3899,7 @@ El CRI V7‑3 se construye como la combinación ponderada de cuatro módulos ind
 Cada módulo se normaliza en el rango [0,1].
 
 La fórmula general es:
-CRI=wMM+wVV+wCC+wEE
-
-Con las ponderaciones estándar:
-
-    wM=0.30
-
-    wV=0.25
-
-    wC=0.25
-
-    wE=0.20
+XXXXXXXXX
 
 **Anexo B — Zonas del CRI e interpretación.**
 
@@ -4039,12 +4080,7 @@ $$
     df["Vol_score"] = (df["Volatility"] - df["Volatility"].mean()) / df["Volatility"].std()
 
 **Fórmula CRI‑raw**
-$$CRI_{\text{raw}, t} = 0.40 \cdot RSI_{\text{score}, t} + 0.30 \cdot Mom_{\text{score}, t} - 0.30 \cdot Vol_{\text{score}, t}$$
-    Python
-    df["CRI_raw"] = (
-    0.40 * df["RSI_score"] +
-    0.30 * df["Mom_score"] -
-    0.30 * df["Vol_score"]
+XXXXXXXXXXX
 
 **Normalización 0–100**
 
@@ -4077,19 +4113,19 @@ $$
     
 **Anexo H — Limitaciones técnicas adicionales.**
 
-    El CRI no incorpora datos fundamentales.
-    No utiliza volatilidad implícita.
-    No evalúa correlaciones dinámicas entre activos.
-    No incluye costes de transacción.
-    No está optimizado por activo para evitar sobreajuste.
+    El CRI no incorpora datos fundamentales.  
+    No utiliza volatilidad implícita.  
+    No evalúa correlaciones dinámicas entre activos.  
+    No incluye costes de transacción.  
+    No está optimizado por activo para evitar sobreajuste.  
 
 **Anexo I — Glosario de términos clave.**
 
-    Régimen: estado estructural del mercado.
-    Overlay: capa adicional de gestión del riesgo.
-    Coherencia: alineación entre momentum, volatilidad y contexto.
-    Lateralidad tóxica: rango sin tendencia con alta volatilidad.
-    Fractalidad: cambios rápidos y frecuentes de régimen.
+    Régimen: estado estructural del mercado.  
+    Overlay: capa adicional de gestión del riesgo.  
+    Coherencia: alineación entre momentum, volatilidad y contexto.  
+    Lateralidad tóxica: rango sin tendencia con alta volatilidad.  
+    Fractalidad: cambios rápidos y frecuentes de régimen.  
 
 **Anexo J — Recursos para implementación práctica.**
 
@@ -4100,10 +4136,10 @@ $$
     Entornos sugeridos: JupyterLab, VSCode, PyCharm.
     Buenas prácticas:
 
-        usar datos ajustados por splits y dividendos
-        validar señales con gráficos
-        evitar sobreoptimización
-        documentar parámetros
+        usar datos ajustados por splits y dividendos  
+        validar señales con gráficos  
+        evitar sobreoptimización  
+        documentar parámetros  
 
 **Anexo K - ¿Cómo clasificar un fondo para el CRI?.**
 
@@ -4113,37 +4149,37 @@ La regla práctica es:
 
 Ejemplos:
 
-    Fondo indexado al S&P 500 → tendencial
-    Fondo indexado al MSCI Emerging Markets → tendencial pero volátil
-    Fondo monetario → sin tendencia
-    Fondo de retorno absoluto → sin tendencia
-    Fondo de renta fija corporativa → tendencia débil
+    Fondo indexado al S&P 500 → tendencial   
+    Fondo indexado al MSCI Emerging Markets → tendencial pero volátil  
+    Fondo monetario → sin tendencia  
+    Fondo de retorno absoluto → sin tendencia  
+    Fondo de renta fija corporativa → tendencia débil  
 
 ¿Qué implica esto para el CRI?
 
 El CRI funciona mejor en:
 
-    activos tendenciales
-    activos con ciclos claros
-    activos con fases de expansión y contracción
+    activos tendenciales  
+    activos con ciclos claros  
+    activos con fases de expansión y contracción  
 
 El CRI funciona peor en:
 
-    activos sin tendencia
-    activos dominados por ruido
-    activos con reversión a la media
-    fondos market neutral o monetarios
+    activos sin tendencia  
+    activos dominados por ruido  
+    activos con reversión a la media  
+    fondos market neutral o monetarios  
 
 **Anexo L - Referencias.**
 
 Estas referencias no definen el CRI, pero contextualizan sus fundamentos:
 
-    Andersen, T. G., Bollerslev, T., Diebold, F. X., & Labys, P. (2003). Modeling and forecasting realized volatility.
-    Ang, A., & Timmermann, A. (2012). Regime changes and financial markets.
-    Hamilton, J. D. (1989). A new approach to the economic analysis of nonstationary time series.
-    Lo, A. W. (2004). The adaptive markets hypothesis.
-    Mandelbrot, B. (1997). Fractals and scaling in finance.
-    Sharpe, W. F. (1994). The Sharpe ratio.
+    Andersen, T. G., Bollerslev, T., Diebold, F. X., & Labys, P. (2003). Modeling and forecasting realized volatility.  
+    Ang, A., & Timmermann, A. (2012). Regime changes and financial markets.  
+    Hamilton, J. D. (1989). A new approach to the economic analysis of nonstationary time series.  
+    Lo, A. W. (2004). The adaptive markets hypothesis.  
+    Mandelbrot, B. (1997). Fractals and scaling in finance.  
+    Sharpe, W. F. (1994). The Sharpe ratio.  
 
 
 Estos anexos proporcionan el soporte técnico necesario para comprender, implementar y validar el CRI V7‑3. Su función es complementar el análisis principal y ofrecer una base sólida para futuras extensiones, comparaciones y aplicaciones prácticas.
