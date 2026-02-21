@@ -1,88 +1,88 @@
 INICE
 1. Introducción
 
-1.1. Motivación
-1.2. Objetivos del CRI
-1.3. Contribuciones del estudio
-1.4. Estructura del documento
-2. Marco Conceptual
+1.1. Motivación  
+1.2. Objetivos del CRI  
+1.3. Contribuciones del estudio  
+1.4. Estructura del documento  
+2. Marco Conceptual  
 
-2.1. Regímenes de mercado
-2.2. Riesgo técnico y volatilidad
-2.3. Limitaciones de los indicadores tradicionales
-2.4. Justificación de un overlay de riesgo
-3. Diseño del CRI V7‑3
+2.1. Regímenes de mercado  
+2.2. Riesgo técnico y volatilidad  
+2.3. Limitaciones de los indicadores tradicionales  
+2.4. Justificación de un overlay de riesgo  
+3. Diseño del CRI V7‑3  
 
-3.1. Arquitectura modular
-3.2. Normalización y escalado
-3.3. Zonas de riesgo
-3.4. Frecuencia de cálculo
-3.5. Interpretación operativa
-4. Metodología
+3.1. Arquitectura modular  
+3.2. Normalización y escalado  
+3.3. Zonas de riesgo  
+3.4. Frecuencia de cálculo  
+3.5. Interpretación operativa  
+4. Metodología  
 
-4.1. Activos analizados
-4.2. Fuentes de datos
-4.3. Métricas utilizadas
-4.4. Períodos históricos seleccionados
-4.5. Procedimiento de evaluación
+4.1. Activos analizados  
+4.2. Fuentes de datos  
+4.3. Métricas utilizadas  
+4.4. Períodos históricos seleccionados  
+4.5. Procedimiento de evaluación  
 5. Resultados por Activo
+  
+5.1. AAPL  
+5.2. MSFT  
+5.3. KO  
+5.4. NEL.OL  
+5.5. EEM  
+5.6. PBR  
+5.7. BTC‑USD  
+5.8. ETH‑USD  
+5.9. GLD  
+5.10. CL=F  
+6. Resultados por Métrica  
 
-5.1. AAPL
-5.2. MSFT
-5.3. KO
-5.4. NEL.OL
-5.5. EEM
-5.6. PBR
-5.7. BTC‑USD
-5.8. ETH‑USD
-5.9. GLD
-5.10. CL=F
-6. Resultados por Métrica
+6.1. Rentabilidad y CAGR  
+6.2. Volatilidad  
+6.3. Sharpe Ratio  
+6.4. Calmar Ratio  
+6.5. Max Drawdown  
+6.6. Profit Factor  
+6.7. Win Rate  
+6.8. Exposure  
+7. Análisis por Períodos Históricos  
 
-6.1. Rentabilidad y CAGR
-6.2. Volatilidad
-6.3. Sharpe Ratio
-6.4. Calmar Ratio
-6.5. Max Drawdown
-6.6. Profit Factor
-6.7. Win Rate
-6.8. Exposure
-7. Análisis por Períodos Históricos
+7.1. 1997–1998 — Lateralidad y ruido  
+7.2. 1998–2002 — Burbuja tecnológica y crash  
+7.3. 2007–2009 — Crisis financiera global  
+7.4. 2012–2017 — Tendencias moderadas  
+7.5. 2014–2016 — Crisis del petróleo y emergentes  
+7.6. 2018–2024 — Volatilidad estructural y shocks  
+8. Comparación Multi‑Período  
 
-7.1. 1997–1998 — Lateralidad y ruido
-7.2. 1998–2002 — Burbuja tecnológica y crash
-7.3. 2007–2009 — Crisis financiera global
-7.4. 2012–2017 — Tendencias moderadas
-7.5. 2014–2016 — Crisis del petróleo y emergentes
-7.6. 2018–2024 — Volatilidad estructural y shocks
-8. Comparación Multi‑Período
+8.1. Patrones repetidos  
+8.2. Reducción del drawdown  
+8.3. Suavizado de la volatilidad  
+8.4. Mejora de Sharpe y Calmar  
+8.5. Transformación de activos tóxicos  
+8.6. Captura de tendencias  
+8.7. Estabilidad operativa  
+9. Comportamiento según el Tipo de Mercado  
 
-8.1. Patrones repetidos
-8.2. Reducción del drawdown
-8.3. Suavizado de la volatilidad
-8.4. Mejora de Sharpe y Calmar
-8.5. Transformación de activos tóxicos
-8.6. Captura de tendencias
-8.7. Estabilidad operativa
-9. Comportamiento según el Tipo de Mercado
+9.1. Mercados alcistas  
+9.2. Mercados bajistas  
+9.3. Mercados laterales  
+9.4. Mercados volátiles o fractales  
+10. Síntesis Global del CRI  
 
-9.1. Mercados alcistas
-9.2. Mercados bajistas
-9.3. Mercados laterales
-9.4. Mercados volátiles o fractales
-10. Síntesis Global del CRI
-
-10.1. Conclusión global del período 2018–2024
-10.2. Rendimiento y volatilidad
-10.3. Sharpe, MaxDD y Calmar
-10.4. Win Rate, Profit Factor y Exposure
-10.5. Exposure agregado
-10.6. Ranking global de robustez
-10.7. Conclusión general del capítulo
-10.8. Limitaciones del estudio
-10.9. Líneas futuras
-11. Conclusión General del Documento
-Anexos
+10.1. Conclusión global del período 2018–2024  
+10.2. Rendimiento y volatilidad  
+10.3. Sharpe, MaxDD y Calmar  
+10.4. Win Rate, Profit Factor y Exposure  
+10.5. Exposure agregado  
+10.6. Ranking global de robustez  
+10.7. Conclusión general del capítulo  
+10.8. Limitaciones del estudio  
+10.9. Líneas futuras  
+11. Conclusión General del Documento  
+Anexos  
 
 
 **1. Resumen Ejecutivo.**   
